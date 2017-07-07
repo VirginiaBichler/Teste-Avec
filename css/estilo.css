@@ -1,0 +1,113 @@
+#minhaDiv {
+  position: absolute;
+  top: 0; left:0; 
+  background: -webkit-gradient(linear, left top, right top, from(#8685c1), to(#d870c1)) no-repeat;
+  background: -moz-linear-gradient(left top, #8685c1, #d870c1);
+  filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#8685c1', EndColorStr='#d870c1'); 
+}
+
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-opcoes ul li {
+ 
+  font-size: 15px;
+  display: inline;
+  margin-left: 20px;
+  background-color:white;
+}
+
+.navbar{
+	background-color: white;
+}
+.menu-opcoes a { 
+    background-color: white;
+    color: #8585c1;
+    text-decoration: none;
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+.menu-opcoes a:hover {
+   background-color:#8585c1;
+    color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+
+header {
+  position: relative;
+}
+
+body{
+	background-color: white;
+}
+
+.center {
+	float:none;
+	display:block;
+	margin-left:50px;
+	margin-right:auto;
+	text-align: center;
+}
+
+.botao{
+   
+    background-color: #8585c1;
+    float: none;
+    color: white;   
+}
+
+.botao:hover{
+    color: white;
+    background-color: #8585c1;
+}
+
+.btn-default{
+	border-color: #8585c1;
+}
+
+.btn-default:hover{
+	border-color: #8585c1;
+}
+
+.navbar-bottom{
+    background-color: #8585c1;
+    text-align: center;
+    color: white;
+}
+
+#botao1{  
+	margin-left: 15%; 
+    margin-top: 0;      
+    margin-bottom:50px;
+}
+
+#botao2{
+   	margin-left: 15%;
+    margin-top: 0;      
+    margin-bottom:50px;
+}
+
+#botao3{
+    margin-left: 15%;
+    margin-top: 0;      
+    margin-bottom:50px;
+}
+
+footer {
+  clear: both;
+  padding: 20px 0;
+}
+
+footer .navbar-bottom {
+  position: absolute;
+  width: 100%;
+  border-radius: 0;
+}
