@@ -45,10 +45,20 @@ header {
   position: relative;
 }
 
-body{
+body {
 	background-color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+color: #8585c1;
+}
+
+p {
+  color: gray;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
 .center {
 	float:none;
 	display:block;
@@ -61,12 +71,18 @@ body{
    
     background-color: #8585c1;
     float: none;
-    color: white;   
+    color: white;  
 }
 
 .botao:hover{
     color: white;
     background-color: #8585c1;
+
+}
+
+.btn-default:active{
+  color: white;
+  background-color: #8585c1;
 }
 
 .btn-default{
@@ -75,30 +91,13 @@ body{
 
 .btn-default:hover{
 	border-color: #8585c1;
+  color: #8585c1;
 }
 
 .navbar-bottom{
     background-color: #8585c1;
     text-align: center;
     color: white;
-}
-
-#botao1{  
-	margin-left: 15%; 
-    margin-top: 0;      
-    margin-bottom:50px;
-}
-
-#botao2{
-   	margin-left: 15%;
-    margin-top: 0;      
-    margin-bottom:50px;
-}
-
-#botao3{
-    margin-left: 15%;
-    margin-top: 0;      
-    margin-bottom:50px;
 }
 
 footer {
